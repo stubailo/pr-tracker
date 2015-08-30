@@ -44,7 +44,7 @@ User = React.createClass({
         <span className="ui label">
           <i className="user icon" />
 
-          {this.data.user.profile.name + " "}
+          Logged in as {this.data.user.profile.name + " "}
 
           <i className="delete icon" onClick={this.logout} />
         </span>
